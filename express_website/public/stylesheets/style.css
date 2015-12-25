@@ -1,0 +1,16 @@
+body {
+  padding-top: 50px;
+}
+
+.jumbotron{
+	background:url(../images/Background.jpg) no-repeat;
+}
+
+footer{
+		background:#f3f3f3;
+		height:40px;
+		text-align: center;
+		margin-top: 30px;
+		padding-top: 10px;
+		overflow:auto;
+}
