@@ -3,6 +3,7 @@ var http = require('http');
 var url = require('url');
 var path = require('path');
 var fs = require('fs');
+var port = process.env.PORT;
 
 // Array of mimetypes
 var mimeTypes = {
@@ -54,4 +55,4 @@ http.createServer(function (req, res){
 	
 
 
-}).listen(3000);
+}).listen(port);

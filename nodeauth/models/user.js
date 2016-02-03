@@ -1,7 +1,7 @@
 var mongoose = require('mongoose');
 var bcrypt = require('bcrypt');
 
-mongoose.connect('mongodb://localhost/nodeauth');
+mongoose.connect('mongodb://testispede:TZPanE33@ds035985.mongolab.com:35985/nauskidb');
 
 var db = mongoose.connection;
 
